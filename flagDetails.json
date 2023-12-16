@@ -1,0 +1,22 @@
+[
+    {
+        "Name": "type",
+        "Default": "tf",
+        "Description": "Type of the docs to generate"
+    },
+    {
+        "Name": "path",
+        "Default": "./",
+        "Description": "Path to the terraform.tfstate file"
+    },
+    {
+        "Name": "output",
+        "Default": "./docs",
+        "Description": "Output directory for the docs"
+    },
+    {
+        "Name": "one-file",
+        "Default": "false",
+        "Description": "Generate one file for all resources"
+    }
+]
